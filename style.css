@@ -294,7 +294,7 @@ footer {
     .section-title { font-size: 1.8rem; }
     .nav-links { gap: 1rem; }
     .container { padding: 0 1.2rem; }
-}
+
 /* --- New Status & Loading Styles --- */
 .status-message {
     padding: 0.8rem;
