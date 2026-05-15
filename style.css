@@ -295,3 +295,31 @@ footer {
     .nav-links { gap: 1rem; }
     .container { padding: 0 1.2rem; }
 }
+/* --- New Status & Loading Styles --- */
+.status-message {
+    padding: 0.8rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    display: none; /* Stays hidden until JS triggers it */
+}
+
+.status-success {
+    background: rgba(88, 211, 179, 0.1);
+    color: #58D3B3;
+    border: 1px solid #58D3B3;
+    display: block;
+}
+
+.status-error {
+    background: rgba(255, 122, 92, 0.1);
+    color: #FF7A5C;
+    border: 1px solid #FF7A5C;
+    display: block;
+}
+
+.btn-loading {
+    opacity: 0.7;
+    cursor: not-allowed;
+    pointer-events: none;
+}
