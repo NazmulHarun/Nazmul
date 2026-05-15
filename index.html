@@ -12,7 +12,7 @@
 
 <nav class="navbar">
     <div class="container nav-flex">
-        <div class="logo">nazmul.dev</div>
+        <div class="logo">Nazmul Harun</div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -131,29 +131,36 @@
             <p>Available for freelance development, web app security testing & startup security reviews. Use the form below to reach me directly via <strong>Email client</strong> or <strong>WhatsApp</strong> with your questions.</p>
             <div class="contact-form-area">
                 <form id="contactForm">
-                    <div class="form-group">
-                        <input type="text" id="name" placeholder="Your name *" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" placeholder="Your email (for reply)">
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" placeholder="Your message or question ... *" required></textarea>
-                    </div>
-                    <div class="flex-buttons">
-                        <button type="button" id="sendEmailBtn" class="btn btn-primary"><i class="fas fa-envelope"></i> Compose Email & Send</button>
-                        <button type="button" id="sendWhatsAppBtn" class="btn btn-outline-light"><i class="fab fa-whatsapp"></i> Ask on WhatsApp</button>
-                    </div>
-                    <p class="badge-note" style="margin-top: 1rem; display: inline-block;"><i class="fas fa-info-circle"></i> Email: opens your default mail client with prefilled details. WhatsApp: opens chat with prefilled message.</p>
-                </form>
+    <input type="text" name="_gotcha" style="display:none" />
+
+    <div class="form-group">
+        <input type="text" id="name" name="name" placeholder="Your name *" required>
+    </div>
+    <div class="form-group">
+        <input type="email" id="email" name="email" placeholder="Your email (for reply)">
+    </div>
+    <div class="form-group">
+        <textarea id="message" name="message" placeholder="Your message or question ... *" required></textarea>
+    </div>
+    
+    <div id="formStatus" class="status-message"></div>
+
+    <div class="flex-buttons">
+        <button type="submit" id="sendEmailBtn" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+        <button type="button" id="sendWhatsAppBtn" class="btn btn-outline-light">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </button>
+    </div>
+</form>
                 <div style="margin-top: 2rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
-                    <div><i class="fas fa-envelope"></i> <strong>Email:</strong> nazmul@secdev.com</div>
-                    <div><i class="fab fa-whatsapp"></i> <strong>WhatsApp:</strong> +880 1234 567890 (demo contact)</div>
+                    
                     <div class="social-icons">
-                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/NazmulHarun" aria-label="GitHub"><i class="fab fa-github"></i></a>
                         <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                         <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="mailto:nazmul@secdev.com"><i class="fas fa-paper-plane"></i></a>
+                        <a href="mailto:nazmulhasan8659@gmail.com"><i class="fas fa-paper-plane"></i></a>
                     </div>
                 </div>
             </div>
